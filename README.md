@@ -1,1 +1,1 @@
-# WebResponsiveStaticWebsite
+# Web Responsive Static portfolio website.
