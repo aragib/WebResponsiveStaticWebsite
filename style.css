@@ -1,0 +1,249 @@
+*{
+  text-decoration: none;
+}
+body{
+  background-color: #f3f3f3;
+  font-family: Catamaran;
+}
+
+header{
+  background-color: :#fff;
+  width: 100%;
+  height: 100px;
+}
+.logo{
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  padding: 16px;
+}
+header a{
+  display: block;
+  margin: 0 auto;
+}
+
+header nav ul{
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+
+}
+nav ul li{
+  display: inline-block;
+  float:left;
+  list-style: none;
+  padding: 16px;
+}
+header nav ul li a{
+  font-family: Catamaran;
+  font-size: 18px;
+  color: #111;
+
+}
+
+.banner{
+  width: 100%;
+  height: calc(100vh -100px);
+  background-image: url(banner3.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.b-container{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.banner h2{
+  font-family: Catamaran;
+  font-size: 60px;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+/*
+.body{
+   width: fit-content;
+  display:flex;
+  margin: 0 auto;
+  padding: 40px;
+}
+*/
+.body img{
+
+}
+
+
+h1{
+  text-align: center;
+}
+
+.main-body{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+
+}
+.floor-plan{
+  justify-content: center;
+  margin: 0 auto;
+}
+.text{
+  padding:0 20px;
+  text-align: justify;
+}
+
+
+.image-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 100px;
+
+
+}
+
+.image{
+  justify-content: center;
+  width: 1;
+  padding: 10px;
+}
+
+.image img{
+  width: 280px;
+}
+
+.image a{
+  text-align: center;
+  text-decoration:none;
+  font-weight:lighter;
+  font-size: 20px;
+  text-decoration-color: #fff;
+}
+
+figcaption{
+  background-color: #111;
+  color: #fff;
+
+}
+h1{
+  color: #111;
+  font-weight: 900;
+  font-size: 20px;
+}
+.about{
+  text-align: justify;
+  padding: 20px;
+}
+.contact{
+  padding: 20px;
+}
+.business-hour{
+  padding-bottom: 30px;
+}
+.footer{
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #111;
+}
+.footer div{
+  margin: 5px;
+  padding: 1px;
+  text-align: center;
+}
+.footer div a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.copyright{
+  font-size: 12px;
+  color: #111;
+}
+
+
+@media only screen and (min-width: 1000px){
+  .logo{
+    margin: 0;
+    justify-content: left;
+    padding: 10px 20px 0px 20px;
+    border-right: 3px solid #111;
+    float: left;
+  }
+
+  header nav ul{
+    margin: 0;
+    float: left;
+    padding: 0px 0px 0px 10px;
+  }
+
+  header nav ul li a{
+    padding: 0px 0px 0px 0px;
+    margin-top: 0px;
+    text-transform: uppercase;
+  }
+  .banner{
+    width: 100%;
+    height: 300px;
+    background-image: url('banner3.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+  }
+
+  h1{
+    color: #111;
+    font-weight: 900;
+    font-size: 26px;
+  }
+  .main-body{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 30px 250px;
+
+  }
+  .about{
+    margin: 20px 250px;
+
+  }
+  .floor-plan{
+    justify-content: center;
+    margin: 0 auto;
+    flex: 1;
+  }
+  .text{
+    padding:0 30px;
+    text-align: justify;
+    flex: 1;
+  }
+  .footer{
+    margin: 20px 250px;
+
+  }
+  .contact{
+    padding: 20px;
+    margin: 20px 250px;
+    font-size: 20px;
+    text-indent: inherit;
+
+  }
+  .business-hour{
+    padding: 0px 0px 300px 100px;
+    margin: 20px 250px;
+    justify-content: center;
+
+  }
+  .about{
+    padding-bottom: 30px;
+  }
+
+
+
+}
